@@ -18,7 +18,7 @@ After installing the package, you need to add the service provider to your confi
 ```php
 'providers' => [
     // ...
-    MicroPrefix\CrudGenerator\CrudGeneratorServiceProvider::class,
+    Microprefix\CrudGenerator\CrudGeneratorServiceProvider::class,
 ];
 ```
 
@@ -53,7 +53,7 @@ This command will update the OpenAPI schema for the Post model based on the fiel
 You can publish the configuration file with:
 
 ```bash
-php artisan vendor:publish --provider="MicroPrefix\CrudGenerator\CrudGeneratorServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Microprefix\CrudGenerator\CrudGeneratorServiceProvider" --tag="config"
 ```
 
 ## Credits
