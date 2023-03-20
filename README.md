@@ -5,6 +5,8 @@ Perfect for rapid prototyping and development. It uses Swagger annotations to ge
 
 Swagger annotation can be disabled in the config file.
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/microprefix)
+
 ## Installation
 
 You can install the package via Composer:
