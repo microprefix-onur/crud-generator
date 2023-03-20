@@ -1,0 +1,8 @@
+@if (config('crud-generator.routes.seperate'))
+<?php
+
+use {{namespace}};
+use Illuminate\Support\Facades\Route;
+
+@endif
+Route::apiResource('{{model}}', {{controller}}::class);

@@ -1,0 +1,23 @@
+<?php
+
+namespace {{namespace}};
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+/**
+ * @OA\Schema(
+ *     schema="{{model}}",
+ *     title="{{model}} Schema",
+ *     description="{{model}} schema",
+ *     @OA\Xml(name="{{model}}"),
+ * )
+ */
+class {{model}} extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        // Add the fillable fields for the {{model}} here
+    ];
+}
