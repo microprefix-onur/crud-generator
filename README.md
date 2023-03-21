@@ -29,7 +29,7 @@ After installing the package, you need to add the service provider to your confi
 You can generate a resource by running the following command:
 
 ```bash
-php artisan crud:generate Post
+php artisan crud:api Post
 ```
 
 This command will generate a controller, request, and routes for the Test model. By default, the controller and request will be placed in the app/Http/Controllers and app/Http/Requests directories, respectively.:
@@ -60,7 +60,7 @@ php artisan vendor:publish --provider="Microprefix\CrudGenerator\CrudGeneratorSe
 
 ## Credits
 
-This package is inspired by the DarkaOnLine/L5-Swagger package.
+This package is inspired by the DarkaOnLine/L5-Swagger package and by my good friend [Milaim Ajdari](https://thirtyseven.dev).
 
 ## License
 
